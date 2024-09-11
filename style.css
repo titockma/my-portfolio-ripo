@@ -1,0 +1,313 @@
+ *{
+    margin:0px ;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+ }  
+ .navheader{
+    height: 100vh;
+    width: 100vw;
+    background: cadetblue;
+ } 
+ 
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+ }
+ nav ul li{
+   display: inline-block;
+   padding-right: 20px;
+ }
+ nav ul li a{
+    font-weight: bold;
+    color: white;
+ }   
+ a{
+    text-decoration: none;
+ } 
+ .logo{
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+ } 
+ .logo::first-letter{
+  font-size: 40px; 
+  border: 2px solid black;
+  border-right: transparent;
+  color: yellow;
+ }
+ .navbtn{
+   background-color: yellow;
+   padding: 10px 20px;
+   border-radius: 15px;
+   color: white;
+   font-weight: 700;
+   text-transform: uppercase;
+ }
+ .navbtn:hover{
+   background: white;
+   color:green;
+ }
+ .aboutme{
+   position: absolute;
+   top: 40%;
+   left: 12%;
+ }
+ .aboutme h1{
+   font-size: 60px;
+   font-weight: 800;
+   line-height: 100px;
+ }
+ .aboutme h1 span{
+   color: yellow;
+   font-size: 90px;
+ }
+ .aboutme p{
+   font-size: 22px;
+   width: 70%;
+ }
+ .image{
+   position: absolute;
+   top: 20%;
+   left: 68%;
+   
+ }
+ .image img{
+   border-radius: 80px;
+ }
+ .dwnbtn{
+   background-color: white;
+   color: yellow;
+   padding: 10px 30px;
+   border-radius: 15px;
+   line-height: 100px;
+   font-weight: 800;
+ }
+ 
+
+ .aboutmecon{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(31, 99, 99);
+  display: flex;
+  padding-top: 10px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 35%;
+  
+}
+ .image2{
+  position: absolute;
+  top: 115%;
+  left: 15%;
+  
+ }
+ .image2 img{
+  border-radius: 60px;
+ }
+ .head{
+  color: orange;
+  font-weight: 600;
+  padding-right:90px;
+  font-size: 70px;
+  
+
+ }
+ .p1{
+  color: white;
+  font-weight:bold;
+  font-size: 20px;
+  padding-left: 6;
+  line-height: 3;
+  
+ }
+ .p2{
+  font-size: 22px;
+  width: 320px;
+  text-align: justify;
+  
+ }
+ .button{
+  background-color: orange;
+  color: white;
+  border-radius: 10px;
+  padding-left: 7;
+  line-height: 4;
+  
+ }
+
+ 
+ .servicecon{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(21, 136, 165);
+  display: flex;
+  justify-content: space-around;
+ }
+ .servicecon h1{
+  text-align: center;
+  position: absolute;
+  color: orange;
+  font-size: 60px;
+  margin-top: 1%;
+  
+  
+   }
+ .box{
+  height: 350px;
+  width: 300px;
+  background-color: rgb(20, 84, 87);
+  margin-top: 15%;
+  border-radius: 10%;
+  text-align: center;
+  overflow: hidden;
+ }
+ .box img{
+  width: 60px;
+  height: 60px;
+  margin: 15px 0px;
+ }
+ .box h3{
+  font-weight: 800;
+  color: white;
+  margin-bottom: 20px;
+ }
+ .box p{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 2;
+ }
+ .boxbtn{
+  margin-top: 50px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 800;
+  text-transform: uppercase;
+ }
+ .portfolio{
+  width: 100vw;
+  height: 100vh;
+  background-color: aqua;
+  text-align: center;
+  
+ }
+ .portfolioh1{
+  text-align: center;
+  font-size: 70px;
+  padding-top: 100px;
+  color: darkgoldenrod;
+}
+.portfoliop1{
+  text-align: center;
+  font-family: cursive;
+   padding-top: 30px;
+   color: darkgoldenrod;
+  }
+ .navbtn2{
+  padding-left: 32%;
+
+ }
+ .a{
+  border: 3px solid darkgoldenrod;
+  padding: 12px;
+  color: darkgoldenrod;
+  font-weight: 600;
+  border-radius: 20px;
+  
+  border-radius: 5px;
+  
+
+ }
+ .b{
+  border: 3px solid darkgoldenrod;
+  font-weight: 600;
+  padding: 12px;
+  border-radius: 5px;
+  color: darkgoldenrod;
+  margin-left: 20px;
+  
+ }
+ .c{
+  border: 3px solid darkgoldenrod;
+  padding: 12px;
+  border-radius: 5px;
+  color: darkgoldenrod;
+  font-weight: 600;
+  margin-left: 20px;
+
+ }
+ .d{
+  border: 3px solid darkgoldenrod;
+  padding: 12px;
+  color: darkgoldenrod;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-left: 20px;
+ }
+ 
+  .contact{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background:lightblue;
+    text-align: center;
+    padding-top: 6%;
+    
+    
+  }
+ input{
+  margin-top: 15px;
+  font-family: cursive;
+ }
+ textarea{
+  margin-top: 18px;
+  font-family: cursive;
+  width: 33%;
+  
+ }
+ 
+ .ss{
+  padding: 0 300px 10px 0;
+ }
+
+select{
+  padding: 0 365px 10px 0;
+  margin-top: 15px;
+}
+
+ .me1{
+  padding: 5% 40% 3% 40%;
+  font-family: monospace;
+  font-size: 15px;
+  font-weight: 600;
+ }
+  .last{
+    font-size:40px;
+    padding: 10px 10px;
+    
+    color:lightcoral;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 6px;
+  }
+
+.lastab{
+  font-weight: 600;
+  padding: 15px 50px;
+  background-color: rgb(162, 238, 82);
+  color: white;
+  border-radius: 10px;
+}
+
+
+  
+
+    
+ 
+ 
+ 
+ 
+ 
+ 
